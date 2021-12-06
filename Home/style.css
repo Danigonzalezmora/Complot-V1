@@ -1,0 +1,422 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12pt;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 4em;
+}
+
+h2 {
+    height: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    color: rgba(255, 255, 255, 0.00001);
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+h2:hover {
+    color: white;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.75em;
+    margin: 0px;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    width: 490px;
+    height: 490px;
+    margin: 0px;
+    color: white;
+}
+
+h6:hover {
+    color: #f36a00;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 10pt;
+    margin: 5px;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #f36a00;
+}
+
+header {
+    height: 187px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-flow: column;
+}
+
+.logo {
+    padding-top: 43px;
+    text-align: center;
+}
+
+nav {
+    height: 50px;
+    width: 100vw;
+    background-color: white;
+    margin-top: 39px;
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+article {
+    width: 100vw;
+    margin: 0px;
+}
+
+#imgapoyo {
+    width: 100vw;
+    height: 600px;
+    margin: 0px;
+    background-image: url(Imagenes/Imagen-de-apoyo-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+    width: 30vw;
+    padding-left: 8vw;
+    padding-top: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.bajada {
+    width: 30vw;
+    padding-left: 8vw;
+}
+
+.cta_primario {
+    background-color: #f36a00;
+    color: white;
+    font-size: 1.5em;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    position: absolute;
+    left: 80vw;
+    bottom: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta_primario:hover {
+    color: white;
+    background-color: black;
+}
+
+#regalos {
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.music_edition {
+    width: 200px;
+    height: 200px;
+    background-image: url(./Imagenes/music-edition.jpg);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.music_edition:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url(./Imagenes/music-edition.jpg);
+}
+
+.hombre {
+    width: 200px;
+    height: 200px;
+    background-image: url(./Imagenes/hombre.jpg);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.hombre:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url(./Imagenes/hombre.jpg);
+}
+
+.mujer {
+    width: 200px;
+    height: 200px;
+    background-image: url(./Imagenes/mujer.jpg);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.mujer:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url(./Imagenes/mujer.jpg);
+}
+
+.txt_regalo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#recursos {
+    width: 100vw;
+    height: 545px;
+    background-color: #c4c4c4;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recurso_video {
+    width: 300px;
+}
+
+#caracteristicas {
+    width: 100vw;
+    height: 705px;
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img_arthur {
+    height: 470px;
+    width: 470px;
+    margin: 0px;
+    padding: 50px;
+    background-image: url(./Imagenes/new_arthur.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.img_arthur:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url(./Imagenes/new_arthur.jpg);
+}
+
+.img_lizzie {
+    height: 470px;
+    width: 470px;
+    margin: 0px;
+    padding: 50px;
+    background-image: url(./Imagenes/LIZZIE.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.img_lizzie:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 0.5)), url(./Imagenes/LIZZIE.jpg);
+}
+
+p.p_arthur {
+    color: white;
+}
+
+p.p_lizzie {
+    color: white;
+}
+
+#cta_secundario {
+    width: 100vw;
+    height: 575px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c4c4c4;
+}
+
+.registroTexto {
+    width: 245px;
+    height: 448px;
+    display: flex;
+    align-items: center;
+}
+
+.registroFormulario {
+    width: 759px;
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.formularioTitulo {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 0px;
+    width: 610px;
+    height: 120px;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.formularioCampo {
+    width: 610px;
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+}
+
+.formularioBoton {
+    width: 610px;
+    height: 80px;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.btnSubmitBlanco {
+    width: 145px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+.btnSubmitNegro {
+    width: 145px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+footer {
+    width: 90vw;
+    height: 90px;
+    padding: 20px 5vw 20px 5vw;
+    margin: 0;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.redes_sociales {
+    margin-left: 15px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.correo {
+    width: 230px;
+    border: white 1px solid;
+    border-radius: 5px;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.link_footer {
+    color: white;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    width: 150px;
+}
+
+.redes_sociales img:hover {
+    transform: translateX(-10px) rotate(-10deg) translateY(5px);
+}
+
+.error {
+    height: 65.5vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.volver {
+    background-color: #0b1f91;
+    color: white;
+    font-size: 1em;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volver:hover {
+    color: white;
+    background-color: black;
+}
